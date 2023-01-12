@@ -7,8 +7,9 @@
 // You can assume, for the purpose of this kata, that the supplied array will not be empty.
 
 class SmallestIntegerFinder {
-    findSmallestInt(args) {
-      return args.sort(function(a, b){return a-b})[0];
-    }
+  findSmallestInt(args) {
+    return args.sort(function (a, b) {
+      return a - b;
+    })[0];
   }
-
+}

@@ -6,5 +6,5 @@ Example(Input => Output):
 0 => [0] */
 
 function digitize(n) {
-    return Array.from(n.toString()).map(Number).reverse();
-  }
+  return Array.from(n.toString()).map(Number).reverse();
+}

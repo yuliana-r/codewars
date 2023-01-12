@@ -9,9 +9,9 @@ Sam Harris => S.H
 
 patrick feeney => P.F */
 
-function abbrevName(name){
-    let newName = name.toUpperCase().split(" ");
-    return newName[0][0] + "." + newName[1][0];
+function abbrevName(name) {
+  let newName = name.toUpperCase().split(" ");
+  return newName[0][0] + "." + newName[1][0];
 }
 
-console.log(abbrevName("Sam Harris"))
+console.log(abbrevName("Sam Harris"));

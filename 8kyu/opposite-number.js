@@ -7,5 +7,5 @@
 // -34: 34
 
 function opposite(number) {
-    return number * (-1);
-  }
+  return number * -1;
+}

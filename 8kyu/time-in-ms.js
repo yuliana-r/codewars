@@ -15,6 +15,6 @@ Input constraints:
 0 <= s <= 59
 */
 
-function past(h, m, s){
-    return ((60 * (60 * h + m) + s)*1000);
-  }
+function past(h, m, s) {
+  return (60 * (60 * h + m) + s) * 1000;
+}

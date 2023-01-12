@@ -14,11 +14,10 @@
 // Input: [0, -1, -5]
 // Output: "even"
 
-
 function oddOrEven(array) {
-    let sum = array.reduce(function(a, b) {
-         return a + b;
-   }, 0);
- 
-   return (sum % 2 === 0 ? 'even' : 'odd');
- }
+  let sum = array.reduce(function (a, b) {
+    return a + b;
+  }, 0);
+
+  return sum % 2 === 0 ? "even" : "odd";
+}
