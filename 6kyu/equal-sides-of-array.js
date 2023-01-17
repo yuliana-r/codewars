@@ -38,16 +38,13 @@ Note:
 If you are given an array with multiple answers, return the lowest correct index.*/
 
 function findEvenIndex(arr) {
-  let index = -1;
-
   for (let i = 0; i < arr.length; i++) {
     let totalRight = arr.slice(0, i + 1).reduce((a, b) => a + b, 0);
     let totalLeft = arr.slice(i).reduce((a, b) => a + b, 0);
 
     if (totalRight === totalLeft) {
-      index = i;
-      return index;
+      return i;
     }
   }
-  return index;
+  return -1;
 }
