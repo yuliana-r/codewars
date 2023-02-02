@@ -40,3 +40,18 @@ function switchItUp(number) {
       break;
   }
 }
+
+function switchItUp2(number) {
+  return [
+    "Zero",
+    "One",
+    "Two",
+    "Three",
+    "Four",
+    "Five",
+    "Six",
+    "Seven",
+    "Eight",
+    "Nine",
+  ][number];
+}
