@@ -31,4 +31,6 @@ function points(games) {
       ? (points += 1)
       : points
   );
+
+  return points;
 }
