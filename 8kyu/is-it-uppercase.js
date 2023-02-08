@@ -12,5 +12,5 @@ does not contain any lowercase letter so any string containing
 no letters at all is trivially considered to be in ALL CAPS. */
 
 String.prototype.isUpperCase = function () {
-  return this === this.toUpperCase();
+  return this.toString() === this.toUpperCase();
 };
