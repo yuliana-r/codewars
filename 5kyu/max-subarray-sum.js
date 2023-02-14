@@ -11,15 +11,15 @@ Empty list is considered to have zero greatest sum. Note that the empty
 list or array is also a valid sublist/subarray. */
 
 const maxSequence = function (arr) {
-    let currentSum = 0;
-    let maxSum = 0;
+  let currentSum = 0;
+  let maxSum = 0;
 
-    if (arr.length == 0) return 0;
+  if (arr.length == 0) return 0;
 
-    arr.forEach(num => {
-        currentSum = Math.max(0, currentSum + num);
-        maxSum = Math.max(currentSum, maxSum);
-    });
+  arr.forEach((num) => {
+    currentSum = Math.max(0, currentSum + num);
+    maxSum = Math.max(currentSum, maxSum);
+  });
 
-    return maxSum;
-  };
+  return maxSum;
+};

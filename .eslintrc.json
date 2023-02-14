@@ -12,10 +12,11 @@
     },
     "rules": {
         "no-console": "off",
-        "no-unused-vars": off,
+        "no-unused-vars": "off",
         "quotes": [
             "error",
             "single"
-        ]
+        ],
+        "no-plusplus": "off"
     }
 }
