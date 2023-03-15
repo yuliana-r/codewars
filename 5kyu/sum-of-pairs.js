@@ -1,3 +1,4 @@
+/* eslint-disable consistent-return */
 /* eslint-disable no-continue */
 /* eslint-disable no-param-reassign */
 /*
@@ -38,9 +39,7 @@ function sumPairs(ints, s) {
   const seen = {};
 
   for (let i = 0; i < ints.length; i++) {
-    console.log(`loop # ${i}`);
     if (seen[s - ints[i]]) return [s - ints[i], ints[i]];
     seen[ints[i]] = true;
-    console.log(seen);
   }
 }
