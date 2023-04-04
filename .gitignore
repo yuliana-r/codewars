@@ -1,6 +1,4 @@
-node_module
-.vscode
-.eslintrc.json
-package-lock.json
-package.json
+node_module/
+.vscode/
+*.json
 
